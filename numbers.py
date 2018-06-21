@@ -38,4 +38,20 @@
 # print(days[day])
 
 #Task 9
+# n = int(input("Enter number: "))
+# hours = n // 60
+# minutes = n % 60
+# print(hours, ':', minutes)
+
+#Task 10
+# a = int(input("Enter number of students in class a: "))
+# b = int(input("Enter number of students in class b: "))
+# c = int(input("Enter number of students in class c: "))
+#
+# def numbers(n):
+#     if n % 2 == 0:
+#         return n // 2
+#     else:
+#         return (n // 2) + 1
+# print(numbers(a) + numbers(b) + numbers(c))
 
