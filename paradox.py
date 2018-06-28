@@ -28,5 +28,17 @@ def monty_hall(a):
             yes += 1
         i += 1
     return yes/a
-l = monty_hall(1000)
-print(l)
+
+def birthday(j):
+    k = 0
+    n = 0
+    while k < j:
+        lst = []
+        for i in range(0,23):
+            lst.append((random.randint(1,29),random.randint(1,13)))
+        for i in lst:
+            if lst.count(i)>1:
+                n+=1
+                break
+        k += 1
+    return n/j
